@@ -1,0 +1,29 @@
+price_delta::
+  start: 2
+  stop: 200
+  step: 2
+size_lot:
+  start: 1
+  stop: 250
+  step: 5
+short_wnd:
+  start: 5
+  stop: 100
+  step: 10
+long_wnd:
+  start: 10
+  stop: 200
+  step: 10
+atr_factor:
+  start: 1
+  stop: 5
+  step: 1
+avail_liq:
+  start: 5
+  stop: 96
+  step: 1
+var_opt: 'Equity Final [$]'
+max_tries: 200
+random_state: 0
+grouping: ['short_wnd_', 'long_wnd_']
+divq: 1000
